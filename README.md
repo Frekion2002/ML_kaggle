@@ -27,11 +27,11 @@
 ```
 1. 평균 기온 (1.38)
 2. 23시 기온 (0.74)
-3. sin/cos 날짜 변환 (0.29 / 0.20)
+3. sin/cos 날짜 변환 (0.29, 0.2)
 ...
 ```
 
-<SHAP 그래프 이미지가 있다면 여기에 첨부>
+![image](https://github.com/user-attachments/assets/cf713bbf-f7e0-45fa-9ae3-7dac7add0f7d)
 
 ---
 
@@ -78,23 +78,7 @@
 - **딥러닝 통합** (LSTM 등 시계열 모델)
 - **지역 특화 모델 개발**
 - **위성/레이더 데이터 연계**
-
----
-
-## 🛠️ Usage
-
-```bash
-# 필수 라이브러리 설치
-pip install -r requirements.txt
-
-# 모델 학습 및 예측 실행
-python train.py
-```
-
-- `data/`: 기상 데이터 CSV
-- `models/`: 학습된 모델 저장 경로
-- `notebooks/`: 분석 및 시각화 노트북
-
+- 
 ---
 
 ## 📚 References
@@ -106,7 +90,3 @@ python train.py
 - [scikit-learn Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 
 ---
-
-## 📌 License
-
-This project is for academic purposes only.
