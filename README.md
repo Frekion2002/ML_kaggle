@@ -74,3 +74,7 @@
 - [scikit-learn Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 
 ---
+
+## More information
+
+- Github에 업로드 된 PDF 참고
